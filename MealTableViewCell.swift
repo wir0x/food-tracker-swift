@@ -10,13 +10,12 @@ import UIKit
 
 class MealTableViewCell: UITableViewCell {
     
-    // MARK: Properties
-    @IBOutlet weak var nameLabel: UIView!
+    // MARK: Properties    
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var ratingControl: RaitingControl!
-    
 
-    override func awakeFromNib() {
+    override func awakeFromNib() {  
         super.awakeFromNib()
         // Initialization code
     }
